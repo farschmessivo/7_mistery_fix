@@ -1,23 +1,29 @@
-# Решатель квадратных уравнений
+# Quadratic equations solver
 
-[TODO. Здесь будет описание проекта]
+This module calculates the quadratic equation.
 
-# Как использовать
+# How to use
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
-
-# Как запустить
-
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
+Example of script launch on Linux, Python 3.5:
 
 ```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+get_roots(a, b, c)
+
+Example:
+>>> get_roots(1, -2, 1)
+(1.0, None)
+
 ```
 
-Запуск на Windows происходит аналогично.
+# How to Unit test
 
-# Цели проекта
+```bash
+$ python3 tests.py
+```
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+
+# Project Goals
+
+The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+
+
