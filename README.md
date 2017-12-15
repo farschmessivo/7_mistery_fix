@@ -1,21 +1,23 @@
 # Quadratic equations solver
 
-This module calculates the quadratic equation.
+If you have an equation of the form "ax2 + bx + c = 0", this module can solve it for you.
+Just enter the values of a, b and c as parameters.
 
 # How to use
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
-get_roots(a, b, c)
+$ python3
 
-Example:
->>> get_roots(1, -2, 1)
+import quadratic_equation
+
+quadratic_equation.get_roots(1, -2, 1)
 (1.0, None)
 
 ```
 
-# How to Unit test
+# How to Launch Unit Tests
 
 ```bash
 $ python3 tests.py
