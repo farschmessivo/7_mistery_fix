@@ -10,17 +10,22 @@ Example of script launch on Linux, Python 3.5:
 ```bash
 $ python3
 
-import quadratic_equation
+>>> import quadratic_equation 
 
-quadratic_equation.get_roots(1, -2, 1)
-(1.0, None)
-
+>>> quadratic_equation.get_roots(1, -1, -6) 
+(-2.0, 3.0)
 ```
 
 # How to Launch Unit Tests
 
 ```bash
 $ python3 tests.py
+
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
 ```
 
 
